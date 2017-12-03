@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+ <html><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/gatsby-starter-blog/component---src-layouts-index-js-97bc044a0367b78675cf.js" as="script"/><link rel="preload" href="/gatsby-starter-blog/component---src-templates-blog-post-js-78ad9faf36d2a33b63a6.js" as="script"/><link rel="preload" href="/gatsby-starter-blog/path---sgoret-d9054e484174a5f53932.js" as="script"/><link rel="preload" href="/gatsby-starter-blog/app-74a56e3acb5813505dc2.js" as="script"/><link rel="preload" href="/gatsby-starter-blog/commons-b9295c1fa34e18bb3199.js" as="script"/><script id="webpack-manifest">
+            //<![CDATA[
+            window.webpackManifest = {"231608221292675":"app-74a56e3acb5813505dc2.js","99219681209289":"component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js","107818501498521":"component---src-templates-blog-post-js-78ad9faf36d2a33b63a6.js","35783957827783":"component---src-pages-index-js-0b4b6464cd0eda1ce204.js","60335399758886":"path----557518bd178906f8d58a.js","210333531512890":"path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js","95711054296057":"path---diptih-81f208f593fae4732bf3.js","167951888252992":"path---sgoret-d9054e484174a5f53932.js","160208263065218":"path---sobiraya-zeldu-0354c550dadd9ebf32df.js","142629428675168":"path---index-6a642e3c4e1791e19ee5.js","114276838955818":"component---src-layouts-index-js-97bc044a0367b78675cf.js"}
+            //]]>
+            </script><style type="text/css">
+    .anchor {
+      float: left;
+      padding-right: 4px;
+      margin-left: -20px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = location.hash.replace('#', '')
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var offset = element.offsetTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><title data-react-helmet="true">Сгореть | Anton Miloradov</title><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75em 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}.anchor[aria-hidden="true"]{box-shadow:none;}</style><link href="//fonts.googleapis.com/css?family=Montserrat:700|Merriweather:400,400i,700,700i,900,900i" rel="stylesheet" type="text/css"/><script>
+  !function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",[
+  "/gatsby-starter-blog/commons-b9295c1fa34e18bb3199.js","/gatsby-starter-blog/app-74a56e3acb5813505dc2.js","/gatsby-starter-blog/path---sgoret-d9054e484174a5f53932.js","/gatsby-starter-blog/component---src-templates-blog-post-js-78ad9faf36d2a33b63a6.js","/gatsby-starter-blog/component---src-layouts-index-js-97bc044a0367b78675cf.js"
+])
+  </script><style id="gatsby-inlined-css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/gatsby-starter-blog/static/montserrat-latin-100.50d27986.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-100.5e334eff.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/gatsby-starter-blog/static/montserrat-latin-100italic.8c070533.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-100italic.03e19243.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/gatsby-starter-blog/static/montserrat-latin-200.4343d3d9.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-200.f2022ecd.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/gatsby-starter-blog/static/montserrat-latin-200italic.116c4c4b.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-200italic.89614a60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/gatsby-starter-blog/static/montserrat-latin-300.d2ad295b.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-300.3a371ee0.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/gatsby-starter-blog/static/montserrat-latin-300italic.f6b6bf24.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-300italic.16521668.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/gatsby-starter-blog/static/montserrat-latin-400.240a8444.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-400.b20cc131.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/gatsby-starter-blog/static/montserrat-latin-400italic.86172bb8.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-400italic.9405e787.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/gatsby-starter-blog/static/montserrat-latin-500.fb8d6b71.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-500.50825d47.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/gatsby-starter-blog/static/montserrat-latin-500italic.c0a555a4.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-500italic.635de59c.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/gatsby-starter-blog/static/montserrat-latin-600.d5615136.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-600.f300da4f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/gatsby-starter-blog/static/montserrat-latin-600italic.10f29d13.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-600italic.2bc37d86.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/gatsby-starter-blog/static/montserrat-latin-700.7d77e1f0.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-700.81826529.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/gatsby-starter-blog/static/montserrat-latin-700italic.1dd2b53f.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-700italic.c162d257.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/gatsby-starter-blog/static/montserrat-latin-800.d4e7bf86.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-800.895aadbf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/gatsby-starter-blog/static/montserrat-latin-800italic.fc0cbe44.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-800italic.b3362875.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/gatsby-starter-blog/static/montserrat-latin-900.c8bdd772.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-900.1b99ef78.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/gatsby-starter-blog/static/montserrat-latin-900italic.cb72c1f9.woff2) format("woff2"),url(/gatsby-starter-blog/static/montserrat-latin-900italic.b78bb9f8.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/gatsby-starter-blog/static/merriweather-latin-300.f015f1e9.woff2) format("woff2"),url(/gatsby-starter-blog/static/merriweather-latin-300.92dfe81b.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/gatsby-starter-blog/static/merriweather-latin-300italic.7fd86b32.woff2) format("woff2"),url(/gatsby-starter-blog/static/merriweather-latin-300italic.878b76f5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/gatsby-starter-blog/static/merriweather-latin-400.12dbf4c0.woff2) format("woff2"),url(/gatsby-starter-blog/static/merriweather-latin-400.1fffad22.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/gatsby-starter-blog/static/merriweather-latin-400italic.1e0d3e81.woff2) format("woff2"),url(/gatsby-starter-blog/static/merriweather-latin-400italic.de18d4c4.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/gatsby-starter-blog/static/merriweather-latin-700.dc8fec81.woff2) format("woff2"),url(/gatsby-starter-blog/static/merriweather-latin-700.d7d2ed8e.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/gatsby-starter-blog/static/merriweather-latin-700italic.b7b7e5da.woff2) format("woff2"),url(/gatsby-starter-blog/static/merriweather-latin-700italic.6210a5fc.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/gatsby-starter-blog/static/merriweather-latin-900.43f870d5.woff2) format("woff2"),url(/gatsby-starter-blog/static/merriweather-latin-900.8f3806df.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/gatsby-starter-blog/static/merriweather-latin-900italic.168c1ab2.woff2) format("woff2"),url(/gatsby-starter-blog/static/merriweather-latin-900italic.ae7778f0.woff) format("woff")}</style></head><body><div id="___gatsby"><div style="max-width:42rem;margin-left:auto;margin-right:auto;padding:2.625rem 1.3125rem;" data-reactroot="" data-reactid="1" data-react-checksum="-701049684"><h3 style="font-family:Montserrat, sans-serif;margin-top:0;margin-bottom:-1.75rem;" data-reactid="2"><a style="box-shadow:none;text-decoration:none;color:inherit;" href="/gatsby-starter-blog/" data-reactid="3">Антон Милорадов</a></h3><div data-reactid="4"><!-- react-empty: 5 --><h1 data-reactid="6">Сгореть</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem;" data-reactid="7">May 01, 2015</p><div data-reactid="8"><h3 id="Твоей-дочери"><a href="#%D0%A2%D0%B2%D0%BE%D0%B5%D0%B9-%D0%B4%D0%BE%D1%87%D0%B5%D1%80%D0%B8" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Твоей дочери</h3>
+<p>Дорога</p>
+<p>Редкая птица долетит до середины Днепра. Но сегодня река затянута отражающим лазурь льдом. Пролетающий путник может остановиться и отдохнуть. А позже — навсегда замерзнуть. Весной лед растает, и птица медленно опустится вниз на корм ужам и рыбам.</p>
+<p>Кто-то упрямо дергал меня за ногу. “Вставай, вставай, скоро Золотоноша, туалет закрою и до конца терпеть будешь” — с деловой интонацией продекламировала проводница и сгинула в тамбуре. Трое попутчиков сгрудились на соседней полке и пялились на меня как совы. Чай в подстаканниках дымился. Моя постель практически вся сползла на пол. В поездах мне всегда снятся кошмары. В сортире было грязно. Через мутную краску на стекле пробивался рассвет.</p>
+<p>— Кофе.<br>
+— Четыре грывни.<br>
+— А в рублях?<br>
+— Сорок.<br>
+— Много.<br>
+— Ты поторговаться прыйшов?<br>
+— Несите.</p>
+<p>Остановка в Золотоноше две минуты. Кто-то в этом городке живет, кто-то умирает, почти никто не рождается. Но для всех остальных эта станция — знак того, что закрывают туалет. Поезд тронулся, не успев толком остановиться.</p>
+<p>Гастарбайтер, пенсионерка и ее внук — мои соседи. Меня они давно не воспринимали как собеседника. Я слушал плеер и смотрел в окно весь вчерашний вечер. Теперь, когда проигрыватель сел, я точно так же надел наушники, только чтобы не участвовать в очередной беседе. Разговоры всегда одинаковые: как работается на чужбине, как сердце жмет хоронить кого-нибудь из родственников и тяжелая политическая ситуация. Вот и сейчас мой сосед, который работал водителем маршрутки, разглагольствовал:</p>
+<p>— Эти москали (я по-другому и сказать не могу!) совсем зажрались: просят останавливать через каждые пятьдесят метров. Да еще и как просят: тихо-тихо. А как только проеду — так сразу орать! Вот этой корове тяжело пройти что ли?! Нет, не тяжело. А что на меня кричать? Ей денег за это заплатят что ли?<br>
+— Ой не говорите. Время-время. Все из одного народа вышли, а теперь эти совсем наших и знать не хотят. У меня дочка живет в Москве, тоже нелегко приходится,— вторила ему пенсионерка.<br>
+— А где в Москве? Кем работает?<br>
+— Та в Сергиевом Посаде. Знаете? А так не жалуется, не жалуется. Сейчас с мужем в Египет поехали и вот внучка мне на месяц дали.</p>
+<p>Внучок ерзал на сидении и дергал увлекшуюся разговором бабушку: “А когда мы приедем?!  А в зоопарк пойдем?! А можно я сразу с Ростиком гулять пойду?!”. Его вопросы оставались без ответа, потому что маршруточник пленил пенсионерку, и они уже хором пели про социальную несправедливость, по очереди выкрикивая имена местных политиков и неодобрительно качая головами в разные стороны.<br>
+В окне мелькнул последний участок заснеженного леса. Мы выехали к берегу.<br>
+Насыпь через водохранилище. Тринадцать километров, которые я проезжал, наверное, тысячу раз. Огромное замерзшее море, где Днепр на горизонте сливается с небом. Река делит Украину на две части. На меня  она имеет какое-то магическое действие. За эту тринадцатикилометровую поездку я перестаю быть собой. Я превращаюсь в абсолютно другого человека. Тут меня тянет ко всему тому, что я в жизни бы не стал делать к востоку от этой реки. За замерзшей гладью воды, в мареве, виднелся город.<br>
+Затопленная, во время создания водохранилища, деревня. От нее остался одинокий столб, торчащий из-под воды. Километровый мост вдоль насыпи, состоящий из чугунных конструкций. Это значит, что до города остались считанные минуты.<br>
+—Бабушка, смотри, пингвины! — крикнул мой маленький сосед.<br>
+Лед был усеян рыбаками, которые показались мальчишке похожими на пингвинов. Мой прадед тоже ходил сюда на рыбалку. Он никогда не ловил сетями, только на удочку. Бывало просиживал часами почти без результата. В детстве, прадед казался мне самым разумным человеком на свете. Он знал математику и говорил на чистом и красивом украинском, без всяких примесей. Я не ходил в детский сад, меня воспитывали он и прабабушка.<br>
+Когда-то я мыл руки перед обедом. Прадед учил меня это делать очень тщательно, используя розовую щеточку для ногтей. Тогда было мало розовых вещей, поэтому щетка была презабавнейшей вещицей. Почему-то у меня возник вопрос странный вопрос:<br>
+— А Бог есть?<br>
+Я не помню, что он мне ответил, но я явно понял, что он не запрещает мне верить, но разумный человек никогда бы этого не делал. Теологический вопрос был для меня решен.<br>
+Днепр закончился. Начался город.</p>
+<h3 id="Город"><a href="#%D0%93%D0%BE%D1%80%D0%BE%D0%B4" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Город</h3>
+<p>Обычно под Новый Год температура здесь скачет: настоящий крепкий мороз сменяется слякотью, а слякоть замерзает и сокращает популяцию пенсионеров. В тот день стоял мороз. От моего приезда до встречи с Антоном обычно проходит от двух до четырех часов. В этот раз пришлось дожидаться вечера. Он теперь работает.<br>
+Я поднялся на сто тринадцать ступенек, которые отделяют мой район от центра города. Наверху стояла машина Антона. Синяя, потасканная тремя поколениями его семьи, “шестерка” в тусклом свете одинокого фонаря выглядела важным автомобилем.</p>
+<p>Антона трясло: у него дергались руки, сжимались челюсти, а взгляд был как у затравленного дикого зверя.<br>
+— Тебе холодно? — спросил я, прекрасно осознавая, что ему сейчас абсолютно плевать на прихоти погоды.<br>
+— Взял двести гривен, как я просил?<br>
+— Да.<br>
+— Отлично. Поехали.</p>
+<p>Шестерка трогалась с места только со второй передачи. Вместо дороги здесь были ямы, которые Антон, на скорости пытался объехать. Руки у него тряслись, с точностью возникали большие проблемы. Нас мотало из стороны в сторону, постоянно выкидывало на встречку. Мне было абсолютно безразлично доедем ли мы.<br>
+Антона я знаю, сколько себя помню. Меня даже назвали в честь него: он принес в роддом моей матери яблоко. В семье решили, что его имя подойдет и для меня. Первые десять лет мы не особо дружили: я рано уехал, и встречались мы хорошо, если раз в год.</p>
+<p>Сошлись мы на почве любви к женщинам. Мне было десять, а ему тринадцать. Мы коллекционировали фантики с голыми тетками по десять копеек штука. Процесс весьма затруднительный: сперва надо было эту контрабанду приобрести. Для этого требовалось подойти к старушке, которая торговала поштучно сигаретами, дать пятьдесят копеек и попросить пять штук. Покупая по одной жвачке было больше шансов нарваться на крики и угрозы. Главное было сохранять невозмутимый вид.</p>
+<p>— Дайте, пожалуйста, пять вот этих, — и показываешь на правильную жвачку.<br>
+— Тебе с бабами что ли?! — сверкая золотыми и железными зубами говорит старушка.<br>
+— Ну да, — тихо произносишь ты.</p>
+<p>Бабулька цыкала зубом и отсчитывала пять жвачек. Сперва я воспринимал цыканье как знак неодобрения. Ведь не может же взрослый поддерживать мою распутную деятельность. Но потом я узнал этих бабок лучше: они торговали всем запретным: для десятилетних — жвачками с женщинами, для тринадцатилетних — сигаретами по штучке, для шестнадцатилетних — самогонкой на разлив, а для совершеннолетних — спичечными коробками (на них обязательно был рисунок самолета) с низкосортной коноплей. А цыкала зубом бабулька не из-за того, что она меня осуждала, а скорее одобряюще, типа “вот мужик растет”. Я так и вижу, как эта бабулька торговала собой лет сорок назад в одесском порту, так же прицокивая зубом.</p>
+<p>Ну, да впрочем, неважно. Главное, что заветная жвачка была у нас в руках. Мы делили их в зависимости от доли — я обычно вкладывал тридцать копеек, Антон — двадцать. Детям избалованным, низкокачественная жевательная резинка была не нужна, и она тут же летела в ближайшую помойку. Главное, было определить, кому достанутся картинки лучше. Если тетка на наклейке просто показывала грудь — это вовсе никуда не годится, впустую потраченные деньги. Если повернута к зрителю спиной — это уже хоть что-то. Но если на ней нет трусов — то это джек-пот. Такие попадались крайне редко, одна на двадцать-тридцать. Я хорошо помню свою первую победу в этой лотерее: худощавая блондинка на фоне американского флага. Антону всегда везло на качественные картинки, хотя у него и была меньшая доля. Дальше задача состояла в том, чтобы полученное правильно спрятать — за мусоропроводом в подъезде, закопать, а для отчаянных — просто положить в самый глубокий карман куртки.<br>
+Мы проехали пересечение проспекта Химиков и улицы Чехова. Уж не знаю, как к городу относился Антон Павлович, но химиков и впрямь было много. В советское время здесь делали удобрения и химическое оружие. После распада союза — большинство этих людей оказались на улице. Теперь многие из них синтезируют амфетамин. На этом наркотике и живет весь город: для рабочих он служит заменой чашке кофе перед трудовым днем, для молодежи — основным способом досуга. За ним-то мы и ехали.</p>
+<p>— У нас должно хватить на грамм, — сказал Антон, увлеченный ездой.<br>
+— Зачем так много?<br>
+— Я уже шесть часов не нюхал.<br>
+— И давно ты так?<br>
+— Уже два месяца без перерыва: сперва Даша улетала, теперь мы с ней поссорились.<br>
+— Почему в этот раз?<br>
+— Я наводил порядок к ее приезду, но не отжал тряпку. Ну а остальное — по-мелочи.<br>
+Мы подъехали к старой многоэтажке. В городе все высокие здания выглядят потрепанными — наружный ремонт здесь не делают, а новых построек нет.<br>
+— К нам должен Паша выйти, — сказал Антон и закурил. Когда-то он бросил на целый год. Но как-то странновато бросать курить, если каждый день ты долбишь или нюхаешь.<br>
+— Кто такой Паша?<br>
+— Мой одноклассник. Гоповатый тип. Он обычно не торгует, но сейчас купил много, сам не снюхает.<br>
+— Вы с ним общаетесь?<br>
+— Сейчас меньше. Ты знаешь, сложно общаться с кентом, который приводит на твой день рождения сорокалетнюю бабу и начинает всем рассказывать, что она богиня секса, выкупаешь?<br>
+Выкупить — так местные заменяют слово “понять”. Причем, имеется в виду понимание на каком-то глубинном уровне. Может означать “сочувствовать”. Если речь про наркотики, то фраза “он меня выкупает” означает “он про меня все знает, можешь не переживать”.<br>
+Из подъезда вывалился парень и зазывающе помахал нам рукой. Мы вошли внутрь. Паша выглядел довольно нелепо, даже в местных масштабах: высокий, коротко стриженный, в тренировочных штанах, на которых сверху висел ремень с пряжкой в виде большого листа конопли. Мы поднялись на несколько пролетов. Без слов Антон передал Паше деньги. Тот отдал ему кусочек фольги, в которую был завернут порошок.<br>
+— Пашок, можно мы у тебя тут? Не затруднит? Мы и тебе премиальную отсыпем, — проговорил Антон скороговоркой.<br>
+— Та ты шо? Мне? Помешаете? Давай прямо тут. Соседка как выйдет, так и назад войдет.<br>
+Антон быстро насыпал немного порошка и стал дробить кристаллики на части своей библиотечной карточкой.<br>
+— Готовь купюру, — сказал он мне, как хирург ассистенту при операции.<br>
+— Ух ты! Сто баксов? Я никогда не нюхал через сотик, — рядом восхищался Паша, нетерпеливо переминаясь с ноги на ногу.<br>
+Паша вдохнул первую дорожку. Вторую Антон. В такие моменты, наверное, должно наступать нравственное пробуждение или что-то в этом роде. Но полгода без этой дряни умноженные на сезонную депрессию делали свое дело — на нравственные вопросы мне было наплевать. Если поможет — отлично, хотя и не должно было помочь. Я вдохнул.</p>
+<p>Сперва ощущается резкое неприятное жжение в носу, через время смешанный с соплями порошок стекает в глотку и горьким комом прокатывается по всему нёбу. С самого первого момента ты чувствуешь себя гораздо бодрее, будто окончательно проснувшись ранним утром. Антон широко улыбался: руки у него перестали трястись и настроение явно улучшилось.</p>
+<p>За свою жизнь я достаточно снюхал порошка, чтобы эта стихия заполнила меня целиком. Единственное, что мешало мне нырнуть с головой — это постоянный вопрос: “Зачем?”. Каждый раз он тяжелым камнем повисал у меня в голове, зудел, мешал, но при этом удерживал на поверхности. Зачем? Зачем? Зачем? И я сжимал зубы крепче в легкой амфетаминовой передозировке. Он удерживал все мое внимание. Он не давал мне расслабиться и вместо шор надеть  слепоту, забиться в угол и рассматривать испуганным невидящим взглядом все это безумие и пустоту.<br>
+Антон улыбнулся и спросил у Паши:<br>
+— Мы еще хотели травы коробок пробить, не подскажешь?<br>
+— Тю, та без проблем.<br>
+Паша достал потрепанный мобильник, наизусть набрал номер и заговорил:<br>
+— Алло, Семен?! А нельзя нам какой-то плавательный элемент в виде корабля порешать?<br>
+И тут же обернулся к нам:<br>
+— Так, паца, все будет, а пока пойдем у меня посидим.<br>
+Антону явно не хотелось сидеть у Паши, но вариантов не оставалось.<br>
+Комната Паши была обклеена плакатами с голыми женщинами поверх ковра, а на стареньком, оставшемся с советских времен, диване восседал черный лохматый кот. Паша тут же включил местный дискотечный хит про деньги, телок и стволы с безумным ритмом и кислотным вокалом. И сразу начал рассказывать про очередных женщин:<br>
+— Нужно денег закинуть, там, короче, вип статус, телки реально встретиться хотят.<br>
+Антон кивал, не зная что ответить, я же притворился, что ковер мне куда интересней его разговоров.<br>
+— Пацаны, пойдем чайку попьем, мама заварила. Надо разгонять кровь, шоб перло больше.<br>
+Пока Паша пошел проверять, правильно ли заварен чай, Антон мне шепнул:<br>
+— У него мать не работает и постоянно мужиков водит. Вот у них и разруха.<br>
+От чая с Пашей нас спас звонок в дверь. Хозяин исчез в дверном проеме и через несколько минут вернулся с коробком.<br>
+— Был бы барыгой, то наварился бы. А так вы мои пацаны, выкупаете?  С вас шестьдесят, как себе брал.<br>
+От конопли Паша отказался и мы снова сели в машину.<br>
+Мы проехали по Карлу Марксу, Энгельсу, Горькому — здесь это не известные люди, а названия улиц.<br>
+— Ну рассказывай, как доехал? — наконец задал приевшийся вопрос Антон, сворачивая бутылку в курительное приспособление.<br>
+— Нормально, без происшествий. Мы так сразу?<br>
+— Мы ведь торопимся. Я тебе представить кое-кого должен. — загадочно улыбнулся Антон.<br>
+— Кого?<br>
+— Мою любовницу.<br>
+Я затянулся. Нормальные люди, наверное, таким вещам не радуются. Еще раз затянулся. Но к этому все шло последние лет пять. Затянулся. Зря он, конечно… женился.<br>
+— Любовницу? Неужели? Ну поздравляю! — я очень хорошо почувствовал, как мои губы медленно растянулись в неестественной улыбке.<br>
+— Ну сейчас сам все увидишь. Ты ее знаешь, на самом деле.<br>
+— Знаю? — но сил думать у меня не оставалось. Окружающее пространство перестало восприниматься единым целым и превратилось в череду приторможенных киношных кадров.<br>
+— Выкинь бутылочку. Только смотри, аккуратно, под машиночку, — Антон нелепо хихикнул и завел шестерку.<br>
+Мы поехали дальше. Гагарин, Шевченко, Ленин — этих людей местные жители все-таки знают. Завернули за центральный рынок и остановились у неизвестного мне заведения.<br>
+— Что за дыра?<br>
+— Та, не парься, тут нормально. Просто никого знакомого нельзя встретить.<br>
+Мы зашли внутрь. Телевизор вещал футбольный матч, трое молодых людей играли в карты. Деревянные столы были покрыты толстым слоем лака и застелены клеенкой. В самом углу сидели Наташа и Лиза.</p>
+<h3 id="Лиза"><a href="#%D0%9B%D0%B8%D0%B7%D0%B0" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Лиза</h3>
+<p>Лето. Мы были на “сушке”. В доме родителей Антона между этажами располагались балконы для просушки одежды. В одном из них он и оборудовал свое ложе. Там были приспособления для курения конопли, употребления амфетамина и кто знает, чего еще. Этот балкон был обильно удобрен голубями, а из вещей для просушки там оставался только чинно повешенный, кишащий насекомыми, ватник. Через крестообразные окна на этом балконе был виден Днепр. Видимо я рассматривал его слишком пристально, потому что Даня постучал мне по плечу и рассмеялся:<br>
+— Эй, москвич, ты шо заснул?!<br>
+Даня — одноклассник Антона, которого тот за глаза называет еврейчиком. Даня ухитрялся ухлестывать за самыми красивыми дамами из тех, к которым не нужно было далеко ходить. Но после разлада с волейболисткой из сборной города (невероятно симпатичная; он рассказывал, что у нее татуировка с совокупляющимися божьими коровками на лобке), начал пить и располнел.<br>
+Еще с нами был пес Ясон, знатный конспиратор. Несмотря на дурную привычку лаять с поводом и без, на сушку он ходил тихо, будто он не собака, а какая-нибудь мышь. Он знал, что если будет себя хорошо вести, то ему пару раз выдохнут в нос пар конопли, отчего Ясон станет спокойным, еще более красноглазым, и никакая соседская Медея не испортит ему сегодняшний праздник.<br>
+— Готов с Лизонькой знакомиться? — спросил Антон.<br>
+— А в чем проблема?<br>
+— Да никаких проблем. У нее парень есть, Валик... Но у нас есть колеса.<br>
+— Та, Господи, не травите душу. Валик мне поручил за ней смотреть, а вы тут уже планы всякие придумываете, — сказал Даня, повышая голос настолько, что нас могли бы услышать на лестнице.<br>
+— Тсс! А сам-то накормил ее на выпускной и потом обжимался, — посмеиваясь, прошептал Антон.<br>
+— Как такого лба на выпускной-то пустили? — проснулся я.<br>
+— Кааак такого лбаа на выпускной-то пустили, — нарочито протягивая букву “а”, передразнил меня Даня, изображая московский акцент, — та у нее родители не пришли, я был ее гостем, выкупаешь? Не школьником же мне называться.<br>
+— И что, она, в свои семнадцать легкая на подъем?<br>
+— Увидишь. Но Валик про нее такое рассказывал, что и попробовать не жалко.<br>
+— Так он же вроде твой друг.<br>
+— Ну да. Та они все равно скоро расстанутся, когда он из Америки приедет, как друг его тебе говорю, — надо сказать, что тут Даня не соврал.<br>
+Мы вышли на лестничную клетку, изрисованную признаниями в любви к спортивным клубам, девушкам и маркам одежды. Ясон неторопливо спускался вниз, подметая ушами пол.<br>
+— Так, Малой, ешь полколеса сейчас, а оставшиеся пол — потом, — заявил Даня. Он всегда начинал называть меня Малым, когда ему что-то не нравилось.<br>
+— Я хочу целое.<br>
+— Тебе и так хорошо будет, не переживай. Держи, только аккуратно.<br>
+Я ожидал увидеть что-то необыкновенное, разноцветное и с интересным рисунком, но как оказалось, это была простая таблетка, с выцарапанной буквой “А”.<br>
+Мы подошли к автобусной остановке.<br>
+— А у вас и на дискотеку собак пускают? — я даже удивился нелепости своего вопроса.<br>
+Выдав нечленораздельное ругательство Антон повел Ясона домой.<br>
+— Так, тут есть одно дело, — сказал мне Даня — мы Лизе продаем таблетку на двадцать гривень дороже. Ты свой, тебе как нам. А ей все равно плевать на такую мелочь. Главное, не ляпни ей, сколько ты за нее дал, понял?<br>
+— Хорошо.<br>
+— Ну вот и славно. Ты не пойми неправильно, но она нормально обеспеченная и дешевле ее все равно не купила бы. Да и пока мотались туда-сюда, пробивали, мы не меньше истратили. Так даже правильней.<br>
+— Ладно-ладно.<br>
+Антон вернулся уже без собаки. На улице было темно, но фонари стали светить как-то ярче.<br>
+— Поедем на такси?<br>
+— Ото москаль дает. На автобусе поедем, денег лишних нет.<br>
+Настоящие автобусы тут ходить перестали давным давно. Зато регулярно, обгоняя друг друга, носятся маршрутки. Мы заняли заднее сидение. Местные кондукторши в маршрутках — презабавные существа. В любую погоду они носят домашние тапки, набедренные сумки для мелочи и яркие синтетические майки. Не могу сказать, что при этом многие из них бреют подмышки. А на самые пышные усы автопарк и вовсе мог бы проводить ежегодный конкурс в пяти номинациях.<br>
+Для столь позднего времени в автобусе было слишком ярко.<br>
+— Что-то меня совсем не прет, — сказал я.<br>
+— Ты крикни погромче, попрет! — одернул меня Даня.<br>
+Бабулька сидевшая перед нами покачала головой и пересела ближе к кондукторше.<br>
+— Главное, не тупи, — наставлял меня Антон, — будет Лиза, ты, главное, не молчи, как обычно, а говори. Танцевать там позови или, я не знаю. Придумай.<br>
+— Ты все равно уезжаешь раньше, чем приедет Валик, чего тебе переживать, — добавил Даня.<br>
+Лизоньку мы встретили в центре, около памятника Ленину. Памятник простоял еще где-то год, а потом его разломали под предлогом переноса. Операцию охранял целый отряд милиции. Лизонькая была не высокая, но и не низкая, не худая, но и не толстая, темноволосая и смуглая. Она тут же приветственно перецеловала всех, даже меня.<br>
+— Ну так как, двинемся на автобусе? Когда малым таблетки их скормим? — вопрошал Даня.<br>
+— Та не, давай на такси, на четверых по деньгам то же самое. Под клубом скормим, где еще? — отвечал Антон.<br>
+Лизонька переводила глаза от одного участника диалога к другому, не поворачивая головы, и жевала жвачку.<br>
+На входе в клуб стоял охранник, он даже не смотрел на клиентов, просто собирал деньги и ставил штампы на руки.</p>
+<p>Внутри раздавалась музыка начала девяностых. Не то, чтобы здесь такое любили, но с надписью “Ностальгия по былому” у всех возникало чувство причастности к древнейшей культуре нашей Родины. Дамы ближе к тридцати, в коротких леопардовых, розовых и ярко-зеленых платьях, выплясывали какой-то дивный по своей пошлости, расчетливости и похотливости танец. У кавалеров движения все же разнились: одни совершали движения напоминающие езду на лыжах, другие — вытирание полотенцем, а третьи и вовсе стояли, прижавшись к стенке, покручивая на пальцах ключи от машины.</p>
+<p>Мы сели. Лиза молча водила глазами из стороны в сторону и пожевывала свою жвачку. С каждой минутой она становилась прекрасней и прекрасней. Она была смешной и живой. Мы зачем-то пили. А потом у нее завибрировала челюсть. Она знаками показала, чтобы я потрогал ее шею. У нее была гладкая кожа, а мышцы быстро сокращались.<br>
+Пивной стакан рядом со мной был совершенен. Я правда не видал таких прелестных пивных стаканов с тех пор. Он был освежающе холоден, потрясающе кругл и приятен на ощупь. Почти как Лиза. Только неживой.<br>
+— Смотри, Малой стакан гладит.<br>
+— Он совершенен.<br>
+— Совершенен. Умойся иди.<br>
+В зеркале уборной обнаружилось, что мои зрачки занимают всю радужку, и я впервые в жизни стал похож на моего прапрадеда-цыгана. Правда, в глазах настоящего кочевника должно гореть пламя, в моих же зияла пустота. Пока я рассматривал свой новый взгляд, в сортир прошмыгнуло невысокое черноволосое существо.<br>
+— Вы следующий? — спросило оно. Я ужасно не люблю фамильярности, и этот вопрос оживил во мне приветливость. Я решил, что существо со мной заигрывает.<br>
+— Конечно.<br>
+— А вы в какой школе учитесь? — видимо, существо и правда со мною заигрывало.<br>
+— Не учусь я уже в школе. А вы в какой?<br>
+— И я не учусь. Давно. — самодовольно добавило существо. — У вас босоножки?<br>
+Я посмотрел на свои ноги. На них красовались черные босоножки. У меня большое расстояние между большим и указательным пальцем на ноге. Туда мог бы влезть еще один палец. Было бы функциональней. Наверное.<br>
+— У вас тоже босоножки, — сказал я существу. Но тут подошла моя очередь. Существо я больше ни разу не встретил, потому что не удосужился посмотреть на ее лицо.<br>
+Лизонька пританцовывала на стуле, постукивая в ритм своей челюстью. Даня и Антон то ли занимались армрестлингом, то ли братались. У Лизы зазвонил телефон и она объявила:<br>
+— Сейчас приедет мама с подругами, как только они натянут на нее сапоги.<br>
+— Может нам уйти? — очнулся Антон.<br>
+— Да не переживай, мама все время тусит. Она свой чувак. Напоит всех бесплатно.<br>
+— Как-то неловко, — вставил я.<br>
+— Так приловчись, — осек меня Даня.<br>
+Если женщинам на местной дискотеке сильно за тридцать, это значит лишь то, что их леопардовое платье будет более ядреного цвета и обнажит всю гинекологическую область при малейшем наклоне. О леопардовых трусах Лизиной матери я узнал еще перед тем, как она представилась. По всему ее виду выходило, что она заблудилась где-то между Страной Чудес и Зазеркальем и слегка состарилась в процессе.<br>
+— Мальчики, я вам налью. Меня Алисой зовут. Ой, а Данечку я знаю.<br>
+— Да что вы, не стоит, — попытался сказать я.<br>
+— Дорогой, дамам не отказывают, — проговорила Алиса и схватила меня за штанину, или как там еще цензурно выражаются.<br>
+Как и подобает джентельмену в таких ситуациях, я шарахнулся и сделал недоуменное лицо. У Лизоньки наконец перестала дрожать челюсть, и она уставилась на мать. Даня с Антоном подхватили меня под руки и потащили к выходу.<br>
+— Тошно-то как, — хрипел Даня.<br>
+— Не говори, брат, — вторил ему Антон.<br>
+— Нехорошо получилось, но у вас какая-то реакция чересчур.<br>
+— Малой, ты дурак? Мне правда тошно. Совсем ошизел там, ты о чем?<br>
+— Антох, мы, наверное, поедем. Нам совсем нехорошо. Оставим тебя на попечении Лизы и ее мамы. Ты в хороших руках. Не тупи, — выдавал мне инструкцию Антон, залезая в такси.<br>
+Около дискотеки тянулся усаженный каштанами неосвещенный бульвар, протыкавший весь город насквозь. Мне ничего не оставалось, как вернуться обратно в кабак.<br>
+Лиза уныло двигала бедрами на танцполе. Скорее всего, она танцевала не для привлечения потенциальных самцов, а для того, чтобы оказаться подальше от матери, которая уже танцевала на коленях у веселенького паренька с зачесанным наверх хохолком.</p>
+<p>Обычно, когда я хочу поцеловать женщину, на меня накатывает волна нерешительности. Я начинаю вести долгий монолог с самим собой о том, согласна ли она, не откажет ли, сказать ли что-то перед этим и как назвать нашего первенца. Потом приходит вопрос: “Не упущен ли момент?” А спустя несколько минут я понимаю, что момент уже давно упущен. Лиза, впрочем, была настолько не в себе, что я успел преодолеть все мои нелепые переживания, не привлекая ее внимания.</p>
+<p>Сперва, Лиза широко открыла глаза от удивления, потом, узнав меня, решила не сопротивляться. От нее веяло особой энергией. Она была живой, теплой, но при этом передавала животный заряд невероятной силы. Не похоти, страсти, любви, а именно энергии. Потом не один наркоман умолял ее дать ему еще одну, последнюю, дозу. Но Лизина симпатия была крайне переменчива.<br>
+В такси было тесно, душно и морально тошно. Алиса облизывала парня с хохолком, а Лиза вжималась в дверь, сидя рядом с ними.<br>
+Лиза жила на третьем этаже собственного дома. Две мохнатые собаки, подметая пол, путались под ногами. Алиса со своим новым приятелем пошли в дом для гостей.<br>
+Я не приставал к Лизе больше, чем следует, хотя она вовсе не сопротивлялась. Мне хватало маленьких разрядов, каждый раз, когда я ее целую. Разряд. И жизнь стала веселей. Разряд. И меня больше ничего не заботит. Разряд. И мир гаснет. Разряд. Разряд. Разряд.<br>
+На мониторе компьютера в ее комнате стали видны первые лучи рассвета. Лиза посмотрела в окно.<br>
+— Время бить посуду, — заговорщически сказала она мне и улыбнулась.<br>
+Мы вышли во двор. Лиза взяла со стола бокал из-под вина, вилку и пошла в домик для гостей.<br>
+Раздался звон бьющегося стекла, вскрик Алисы и взвизг Лизы:<br>
+— Вставай, папа через два часа вернется!<br>
+Из домика для гостей вышла скомканная Алиса и поплелась убирать на столе. Тарелки она собирала в стопки с каким-то особым отвращением. Потом повернулась ко мне и низким голосом сказала:<br>
+— Антох, ты уж извини за вчерашнее. Нам убираться надо. Приходи в гости еще.</p>
+<h3 id="Зажигалка"><a href="#%D0%97%D0%B0%D0%B6%D0%B8%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Зажигалка</h3>
+<p>Лиза целовала Антона напоказ, будто ей нужно было дать понять всем подружкам, какого кавалера она себе нашла. Антон целовал Лизу скрытно, будто завуч вот-вот выйдет из-за угла и напишет замечание в дневник. Наташа смотрела на то, как Лиза целует Антона, взглядом обыкновенной толстенькой подружки, которая в глубине души хочет быть на месте главной героини. Я смотрел на то, как Антон целует Лизу, с радостью за друга и с горечью по утраченной любви всей жизни. В общем, все происходило точно так, как случается обычно в средней школе.</p>
+<p>После показательного выступления, все улыбались и ждали моей реакции.<br>
+— Ну я, вообщем, рад за вас, — повисла мертвая пауза. Все улыбались и ждали продолжения, — Ну как бы это... Поздравляю! — опять пауза. Наконец я придумал подходящий вопрос, — Как вы встретились?<br>
+— Даша уезжала в Америку на месяц. Мы как-то раз напились и все завертелось, — сказал Антон.<br>
+— Ой, ну мы так напились тогда, — вторила ему Лиза. Только сейчас я заметил, что ее мизинец идет почти под прямым углом к безымянному пальцу, из-за чего ее гигантский нарощенный ноготь впивается прямо в кожу.<br>
+— Ты смотришь на мои пальцы? — шутливо поинтересовалась Лиза.<br>
+— Фаллический символ небось ищет, все они такие, — вставила Наташа.<br>
+— Да не, просто наркотиков перебрал... — сказал я.<br>
+— Кстати, о наркотиках! Я пошел, — Антон, неуклюже изображая лунную походку, двинулся к уборной.<br>
+Лиза запрокинула голову и шумно выдохнула воздух.<br>
+— Ну Лиз, ну ты чего? — сказала Наташа, напуская на себя заботливость.<br>
+— Я ведь правильно поступаю? У него жена есть. Зачем я тут?<br>
+— Он сам хочет. Да и ты же видела Дашу. Странно, что он только сейчас созрел.<br>
+— Но он на ней женился.<br>
+— Она его заставила.<br>
+— А я на него не давлю?<br>
+— Нет. Он и со мной тогда пробовал. Значит — хочет. Как психолог тебе говорю.<br>
+— Я не знаю. Почему я, а не ты?<br>
+— Вы ближе друзья, наверное. Он же тебе нравится?<br>
+— Ну да.<br>
+— Вот и не парься.</p>
+<p>Почему-то мне часто приходится слышать подобные диалоги. То ли дамы воспринимают меня за подружку, то ли не воспринимают за человека вовсе. Впрочем, меня больше интересовало, как я отношусь к данной ситуации. С одной стороны, я был действительно рад, что он завел любовницу и уйдет от этой мегеры. С другой — почему из всех он выбрал именно Лизу и на ней остановился? Других, что ли, в городе не водится?<br>
+Антон вернулся очередной дурацкой пританцовывающей припрыжкой, сел, обнял Лизу, потом, будто вспомнив что-то, слегка отшатнулся от нее, передумал и обнял окончательно. В телевизоре забили гол, и в глубине зала раздался одинокий крик одобрения.</p>
+<p>Посидели. Помолчали.<br>
+— Как там у вас в Москве? — попробовала разбавить тишину Наташа.<br>
+— Стоит все на месте, вроде бы. А у вас тут как?<br>
+— Тоже все стоит.<br>
+— Вы какие-то грустные. Нужно, значит, еще ускориться. Антон, пошли. — опомнился Антон и повел меня в сторону уборной.<br>
+Сортир был на улице. Крышка унитаза. Две дорожки. Никаких прозрений. Сплошная рутина. Вдох.<br>
+— Грамм кончился, — объявил Антон.<br>
+— Так быстро? Тебе не много?<br>
+— Дорогой мой, я за два месяца больше трех часов в сутки не спал. Мне нельзя останавливаться. Мне страшно остановиться.<br>
+— Придется же когда-нибудь.<br>
+— Мне под кожу бы, мне под кожу бы мне запустить дельфинов стаю, —  напел Антон и поплыл обратно в кафе.<br>
+Пришли. Сели. Пауза. Кривой Лизин палец. После наркотиков паузы невыносимы.<br>
+— Антон, мне надо с тобой серьезно поговорить, — в моем голосе слышалась какая-то непривычная истерическая нотка.<br>
+— Ууу! Мальчики, если у вас все серьезно, то мы мешать не будем, — засмеялась Наташа и начала собираться.<br>
+— Ну первый день человек приехал... Нужно поговорить. Серьезно, — зачем-то оправдывался перед Лизой Антон.<br>
+— Да я все понимаю, мужские разговоры. Завтра увидимся! — с облегчением щебетала Лиза, пока Антон застегивал ее пальто.<br>
+Лиза с Наташей взяли одно такси, хоть и ехать им в разные стороны. Материала для очередных психологических консультаций было предостаточно.<br>
+Антон чиркнул зажигалкой, поднес сигарету к пламени и затянулся.<br>
+— Ну теперь рассказывай.<br>
+— Во-первых, ты себя не контролируешь совсем. Ты же на героин сядешь такими темпами. Пообещай, что не сядешь.<br>
+— Да нет. Я дурак что ли?<br>
+— Если я узнаю, что ты даже только пробовал героин, то я тебя сдам. Родителям сдам. Пусть им больно, но тебя хотя бы в больницу отдадут. Там к батарее привяжут и бить будут. Может вылечат. Надеюсь вылечат. И пусть у нас дружбы не будет после этого, скорее всего, но твоя жизнь мне дороже, — странно выглядит эта речь, произнесенная скороговоркой, когда у тебя трясутся руки и ходит челюсть от передозировки тем же дерьмом.<br>
+— Да не переживай. Сейчас поедем в Карпаты, меня отпустит, и все наладится, — Антон всегда умел раздавать ничего не значащие обещания людям. Старшее поколение за это его почему-то особенно любило.<br>
+— А может не поедем? Ты с Дашей все равно сейчас в контрах. Отметим его тут с Лизой. И все будет хорошо. Потихоньку завяжешь - отоспишься. А Даша пусть едет.<br>
+— Ну так нельзя. Она моя жена все-таки.<br>
+— Ты ее любишь?<br>
+— Не знаю. Теперь скорее как друга.<br>
+— Может не поедем?<br>
+— Так неправильно. Что мне потом делать? Разъезжаться с ней? И куда я денусь? На меня весь город смотреть будет. Родители осудят. Как я жить-то буду?<br>
+На бульваре было темно и сыро. Редкие витрины были единственным источником света, фонари здесь не горят. С неба сыпал не дождь, не снег, но шум, который вовсе не ощущался, но был виден.<br>
+— Родители не осудят. Уедешь в Киев к сестре. Поищешь лучше работу. Ты же можешь больше. Ты можешь всего добиться. И уехать отсюда. Не застревать. У тебя есть потенциал.<br>
+— Осудят. Неправильно так. Но я подумаю. Правда не ехать?<br>
+— Давай не поедем. Я все организую. Нас поймут. Вот увидишь.<br>
+При возвращении домой, самое страшное — подниматься шесть пролетов по лестнице. В это время я чувствую каждой клеточкой тела, насколько же я не в себе. Приступы совести одолевают и говорят, что я потратил деньги, которые мне дали родители, на дурь и алкоголь. И что сейчас, все поймут, что я под наркотиками, потом положат в лечебницу, где будут ходить прутом по ребрам, как по батарее. Но перед этим я увижу лицо бабушки в слезах, полное отчаяния и разочарования. Это, наверное, страшнее всего.<br>
+Потом я поднимаюсь на лестничную клетку, нажимаю на звонок, делаю невозмутимое лицо. Дверь открывается. И я с улыбкой говорю:<br>
+— Ну вот я и дома!<br>
+Когда я захожу в дом, все становится проще. Бабушка внимательно вглядывается в меня, но она никогда не поймет, что со мной. Про наркотики она знает только по дерьмовым сериалам, выпускам новостей и загадочному слову “ломка”. Для нее они все под одну гребенку и она не чувствует человеческих вибраций, которые исходят от разных видов наркотического опьянения. Чтобы отмести все подозрения, я говорю:<br>
+— Встретились с Антоном, немного выпили.<br>
+— Зря вы так. Просто поговорить нельзя что ли? — все, загадка для нее решена. Внук просто слегка пьян.<br>
+— Ну так получилось.<br>
+— Есть будешь? — тут, главное, не соглашаться. Под амфетамином еда по вкусу напоминает картон.<br>
+— Нет, мы поели, все нормально.<br>
+Теперь нужно прошмыгнуть к себе в комнату, выключить свет и лечь. Всю ночь придется разглядывать потолок. Спать не получится.</p>
+<h3 id="Светофор"><a href="#%D0%A1%D0%B2%D0%B5%D1%82%D0%BE%D1%84%D0%BE%D1%80" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Светофор</h3>
+<p>Я продал свой дом за пятнадцать минут до конца света. Мне дали за него  хорошую цену, ведь никто не подозревал, что мир рухнет. Я пошел к морю и долго смотрел на бесконечную водную гладь, которая упиралась в горизонт. Чувство безысходности поглотило меня.</p>
+<p>Амфетаминовый сон безобразен. Закрытые веки не приносили покоя и расслабления. Потолок мерцал в свете уличного фонаря и накладывался на фрагменты сна. Выходил забавный парадокс: ты спишь и не спишь одновременно. Сон был настолько поверхностным, что его сдувало сквозняком, качающим занавеску или каплями воды бившимися о жестяную раковину на кухне.</p>
+<p>Иногда я смотрел на часы. Время шло быстрее, чем обычно, но каждый отдельный миг мог тянуться бесконечно долго. Накапливающаяся усталость легко сосуществовала с неестественной бодростью и податливостью тела к любому, самому маленькому нервному импульсу. Я ворочался, но на кровать будто набросали камней, и удобной позиции не существовало. Еще раз я закрыл глаза.</p>
+<p>Когда я проснулся, комнату заполняло раннее утро. Сухость во рту, песок на зубах. Простынь была скомкана и валялась где-то на полу. Потолок белый до ряби в глазах. Руки трясутся.</p>
+<p>Но самым неприятным последствием вчерашней прогулки были не внешние признаки наркотического похмелья. Проблема, как обычно, внутри. Весь мир в целом, каждый отдельный его кусок и я, в частности, вызывали у меня необычайную злобу и отвращение. Тут не было каких-то глубоких душевных страданий на псевдофилософские темы. Не было и типичной претензии к себе в форме: “Зачем я это сделал? Я больше так никогда!” Просто серо, плохо и тоскливо. Не оставалось никаких сил. А мир вокруг был огромным, отстраненным и вселял отвращение в маленького человека.</p>
+<p>Сперва требовалось дойти до кухни и выпить воды или чаю. Существует поверие, что чай разгоняет кровь, остатки наркотиков активизируется и становится чуть легче. Как бутылка пива на утро после пьянки.<br>
+На кухне была бабушка. Только я успел подойти к кувшину с водой, как меня одернули:<br>
+— Давай быстрее ешь оладушки и поедем. Дед уже ждет, нервничает.<br>
+— Куда поедем? Я не хочу никуда ехать. Я хочу спать, — это конечно не было правдой, но какая-либо коммуникация с людьми представлялась мне сущим мучением.<br>
+— На кладбище. Сегодня день святого Николая, по имени твоего прадеда, — я не рискну утверждать, что день был именно Николая, но явно рядом был какой-то религиозный праздник. Вера в бабушке представляла собой достаточно забавную картину. Как дочка атеистов, человек учившийся и проживший в Советском Союзе, в бога, на самом деле, она не верила. Но как человек правильный и педантичный она заставляла себя поверить. А если не поверить, то хотя бы выполнять ритуал. В итоге ее отношения с богом сводились к набору каких-то обрядов, которые она считала правильным соблюдать. “Хуже ведь не будет. А если есть хотя бы один шанс из тысячи, то я не прогадаю,” — рационализировала она.<br>
+— Я не поеду на кладбище, — перспектива утренней ломки среди могил меня прельщала меньше всего на свете.<br>
+— Поедешь. Ты же любишь дидуся с бабусей.<br>
+— Им от этого не теплее. Любовь на расстоянии ничем не хуже.<br>
+— Фу! Это ведь не им нужно, а тебе!<br>
+— Да мне и так неплохо.<br>
+— Садись ешь оладушки, а то дед ждет и сердится.<br>
+Оладушки на вкус напоминали смесь глины и картона. То есть, на самом деле они, скорее всего, были очень вкусными, но после порошка еда не имеет вкуса еще до следующего вечера. Я с трудом впихнул в себя один, положил вилку и начал рассматривать серый горизонт за окном.<br>
+— Давай ешь! — бабушка в коричневом пальто нависла надо мной.<br>
+— Не буду есть я твои сраные оладьи! И на кладбище тоже не поеду!</p>
+<p>Итак, мы ехали на кладбище. Снег растаял за ночь и под ним обнажился серый город. Серые дома нависали над серым асфальтом, в ямках которого был серый грунт, а в нем втоптанный посеревший мусор. Голубое небо добавляло окружающей серости холодный оттенок.<br>
+На перекрестке пищал светофор. Его поставили местные чиновники, потому что здесь сбили критическую массу людей.<br>
+Благодаря дяде Сереже я давно знаю, что Деда Мороза не существует. Мне было лет восемь, он пришел в красном костюме и подарил раскраску. И все бы было хорошо, но его голос с нотками коньяка в тот раз было уже тяжело не узнать. И несмотря на то, что я его раскусил, он все равно продолжал приходить каждый год в своем нелепом костюме.<br>
+В остальное время Сережа был другом деда. Он намного моложе, но им это не мешало. Они заходили в какой-нибудь кабак, обсуждали геополитику и более мелкие вопросы.<br>
+От Сережи лет десять назад ушла жена-потаскуха и забрала дочь. Так он и бродил неприкаянный, напиваясь, в попытках найти какой-нибудь смысл, суть или причину жить дальше.<br>
+Когда его сбила машина, он был пьян. Сомневаюсь, что он специально бросился. Скорее всего, просто невыносимая драматургическая пауза в его жизни затянулась настолько, что злосчастная машина должна была сделать последний поворот.<br>
+Родственники быстро растащили все вещи из его холостяцкой квартиры, дочь не поехала на похороны, а моему деду и не сказали даже. Единственным напоминанием о его жизни стал писк светофора.</p>
+<p>Рядом с могилой прадеда последние лет десять лежал мальчик. Погиб в аварии, кажется. Его фотография упорно напоминала мне Курта Кобейна в детстве. Здорово все-таки, что умер рано, а то бы его мама переживала, что он играет грандж и ставится по вене.<br>
+Чесались вены. От моих наркотиков, по правде говоря, они не чешутся, но нервный тик — явление универсальное. Вороны летали по кладбищу, разыскивая подарки, которые люди оставляли своим мертвым.<br>
+Бабушка торопливо разгребала могилу от снега, ставила цветы, раскладывала дешевое печенье для подарков и занималась прочей чепухой. Можно было бы и помочь, конечно, но тогда придется говорить, двигаться и подавать еще какие-то признаки жизни, когда хочется просто провалиться под землю. Поэтому я изображал задумчивый взгляд в бесконечность и беседовал с предками.<br>
+Эээй. Кто-нибудь меня слышит? Помнишь, ты говорил, что там холодно? Когда во сне ко мне приходил? Нет? Согрелся? Ээй! Я с кем разговариваю? А бабушка как? А потом на таблицу рекордов посмотреть дают? Ну, не молчи! Хорошо тебе там пребывать! Или как это этичней сформулировать? Сладкой смерти? Земля пухом? А у меня все отлично, не переживай. То есть плохо, но ты все равно не переживай. Не хочу тебя расстраивать. Я справлюсь. Стыдно-то как. Не выходит ничего, не клеится. Все, что было — потерял, а нового нет. Скучно. Пусто. Даже у тебя там, наверное, веселее. Хотя, если мне приснилось правильно, то у вас тоже не сахар. Не верю я во все это. Да и ты тоже не верил. Просто один кусочек моего мозга разговаривает с другим. Хотя может в этом и есть вечная жизнь. Ты не представляешь, как пусто.<br>
+Пока я упражнялся в связи с загробными мирами, к нам прошуршала сгорбленная бабка.<br>
+— Как звали усопшего? — деловито поинтересовалась она.<br>
+— Николай.<br>
+Бабка распрямилась, отчеканила заученную молитву, вставив фразу про “божьего раба Николая”, получила свою порцию из мертвой еды, согнулась и скрылась за могилами.<br>
+— Он рабом никогда не был, — не сдержался я.<br>
+— Ну это же не повредит, — выдала свою коронную фразу бабушка, — он был хорошим человеком.<br>
+— Все относительно.<br>
+— Тише. Что ты несешь? — прошипела на меня бабушка.<br>
+— Ну прабабушке-то он изменял в войну. С женой ее брата, — не знаю, зачем я это говорил, мне хотелось ударить ее побольнее, за то, что я стою на промерзшем кладбище, за то, что мне дурно и за то, что я вовсе существую.<br>
+— Бог его простил.<br>
+— А она его до самой смерти простить не могла.<br>
+— Тихо ты.</p>
+<h3 id="Писечка"><a href="#%D0%9F%D0%B8%D1%81%D0%B5%D1%87%D0%BA%D0%B0" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Писечка</h3>
+<p>— Я помирился с Дашей.<br>
+Антон всегда выдавал эту фразу неожиданно и празднично, будто весь мир от него только этого и ждал. Наверное, если он на ней женился, то его что-то притягивает. Значит возвращение к исходной позиции неотвратимо. Как спутник, который пролетает вокруг планеты то ближе, то дальше, но неизменно возвращается к исходной точке на орбите.<br>
+— Эээ. Я тебя поздравляю, — наконец вытянул из себя я, — а с Лизой что думаешь?<br>
+— Все будет по-прежнему, — в прогнозировании своего будущего Антон никогда не скупился на оптимизм. Все возможные сюжетные коллизии, очень вероятные в небольшом городке, его ничуть не смущали.<br>
+— Мы ведь в Карпаты уезжаем. С твоей женой. На две недели. Может лучше остаться?<br>
+— Ты ведь понимаешь, что мне надо ехать.<br>
+— А Лиза как?<br>
+— Ты думаешь, мне самому не хочется остаться? Но я не могу, понимаешь?.. А может давай останемся? Отпразднуем Новый Год я с Лизой, а ты... с нами. Как хорошо будет.<br>
+— Давай!<br>
+— Нет, надо ехать, — сказал он, вздохнув, — а ты приглашен к нам в гости. Ты совсем неважно выглядишь. Но я купил еще чудесного порошка.</p>
+<p>Машина заехала в темный переулок. По правде, практически все переулки в городе освещены только светом из окон соседних зданий. Антон достал из бардачка коробочку от диска и начал раскладывать амфетамин.<br>
+Вторая дорожка — самое прекрасное, что случается в любом долгом заплыве. Она представляет собой квинтэссенцию идеи всего этого дерьма. С одной стороны — после нее вчерашний отходняк моментально растворяется, с другой — от нее все еще прет, с третьей — эффект уже понятен и предсказуем, а значит можно насладиться им в полной мере. Дальше все идет уже по наклонной.</p>
+<p>Кислый вкус на зубах больше не напоминал лекарство из глубокого детства, теперь его можно смаковать, как изысканный коньяк многолетней выдержки. Я даже не хотел сплюнуть эту гадость, скорее наоборот, мечтал вобрать ее до последней капли, а потом попросить добавки. Изнутри приливали силы, а жажда деятельности нежно покусывала меня за мочку уха. Хотелось пойти и сделать что-нибудь значительное: поразить Дашу мечом в глаз, совратить всех местных девушек, а на сдачу забраться на Эверест, ну или хотя бы на холм, где стоит монументальная Родина-мать. На первом этаже задернули занавески.</p>
+<p>Антон жил в половинке частного дома, которая досталась ему по наследству от деда и бабки. Его бабушка была та еще барышня и на старости лет материлась как сапожник. Деда тоже звали Антоном, в честь которого назвали Антона, в честь которого назвали меня. Дедок был примечателен еще тем, что в семьдесят таки ушел от бабули к молоденькой сорокалетней женщине, продержался полгода и вернулся на коленях обратно. Но время всегда берет свое и после всех этих любовных перипетий они, по очереди, умерли. А полдома остались.</p>
+<p>Дверь нам открыла Даша. У нее были очень простые черты лица. Блестящий нос картошкой. Веснушки. Нелепый пирсинг над бесцветной бровью, сделанный под впечатлением от третьего альбома Земфиры. И крашеные в ядрено-красный цвет волосы. Но отталкивающий эффект производили не отдельные элементы портрета, а суммарный диссонанс нелепостей ее лица. У Даши было пухленькое тело, одетое в тренировочный костюм, который был ей явно маловат, и из-под толстовки выглядывало оголенное до проколотого пупка пузико.</p>
+<p>— Где тебя носило, какашечка? Ты говорил, что придешь на пятнадцать минут раньше. Ты можешь мне объяснить, где ты все это время был? — возмущенным материнским тоном отчеканила Даша.<br>
+— Писечка, ну ты чего?! Мне же нужно было заехать за Антоном. Мы еще зашли пива купили. Вот пятнадцать минут и ушли! — Антону, кажется, это доставляло удовольствие.<br>
+— Знаю я ваше пиво. Небось опять накурились. Ну-ка смотри на меня, какашечка! — взгляд Даши становился животным и она начинала обнюхивать Антона носом, как борзая собака.<br>
+— Да, раскурились. Он же только приехал, нужно как-то развлекать гостя. Ну чего ты разошлась?<br>
+В этом случае работал тот же принцип, что и у меня с бабушкой: чтобы снять подозрения, нужно прямо заявить о каком-нибудь меньшем проступке. В курении конопли Даша не видела ничего дурного. То есть видела, но не считала этот грех вопиющим. Не знаю, осознавала ли она, что наркотики являлись ключевым элементом успеха ее семейной жизни. Так или иначе, главное теперь не давать ей повода усомниться в том, что мы просто накурились. Ведь Даша не знает, что Антон нюхает. Амфетамин по шкале преступлений стоял куда выше. Курят дурь все подряд, даже порой очень приличные люди. Нюхают же прожженные наркоманы, которых никак не отнесешь к приличным людям. Но у Даши все должно было соответствовать приличиям. А если ее жизнь не соответствует нормам, то виноват Антон, который за это должен основательно поплатиться.<br>
+Думая об этом, я продолжал стоять в коридоре, выстукивая по стене какой-то дикий ритм. Антон вылупился на меня и пытался всячески дать понять, чтобы я прекратил.<br>
+— Тебя что, совсем накурило? Проходи садись, сейчас чай налью, — деловито сказала Даша и пошла к плите.<br>
+В комнате было прибрано и почти уютно. В клетке рядом со мной шуршал серый попугай, на которого пристально смотрела черная кошка. Собака же подпрыгивала в углу, не обращая внимания на всех остальных животных, ее завораживали собственные черти.<br>
+Я запивал пиво чаем. Очень хотелось курить обычных сигарет. Но я уже два раза выходил покурить, пока Даша готовила ужин. Выйти в третий раз — будет слишком подозрительно. Я вошел в ритм:  глоток пива — глоток чая — два раза пристукнуть костяшками пальцев о стол. Мне кажется, что я слишком торопился, Антон пытался подавать мне сигналы, но остановить этот цикл я никак не мог. Однако, Даша была слишком поглощена заглатыванием борща, чтобы заметить мое странное поведение. Я не исключаю, что мое поведение вовсе и не было странным. Наверняка, многие люди запивают пиво чаем и потом нервно стучат пальцами по столу. В этом нет никакого преступления. Кроме того, что преступление, на самом деле, есть. Антон тоже не знал куда деться, но его способ борьбы с напирающей жаждой деятельности был другим: он расфокусировал взгляд, его лицо перестало выражать какие-либо эмоции, вероятно, скакал с овцами по лугу собственных иллюзий. Даша продолжала жевать.<br>
+— Вы какие-то молчаливые сегодня. Совсем накрыло? — спросила Даша, вымакивая куском хлеба остатки борща.<br>
+— Нет, Даш. Нас не совсем накрыло. Просто ты кушаешь, а мы не хотели бы тебе мешать. Да и вообще твое предположение, что нас совсем накрыло, мне кажется до боли обидным. Ты произносишь его тоном, будто мы какие-то конченные наркоманы. А мы вовсе не наркоманы и даже не конченные. Мы просто чуть-чуть покурили. Но, как видишь, я вполне могу связно говорить. Так что, попрошу тебя воздержаться от подобных ремарок в дальнейшем. И вообще лучше ты расскажи, как у тебя дела? Как жизнь? — пока я произносил этот озлобленный монолог, Антон всячески подавал мне знаки, чтобы я прекратил. Это могло разрушить нашу конспирацию. Но амфетамин, ярость и скука заставляли меня говорить.<br>
+— Да хорошо дела. Ты извини, не наркоманы. Мне ведь нужно какашечку воспитывать, сам понимаешь, он такой несамостоятельный, — растерянно ответила Даша.<br>
+Дальше мы сидели в тишине. Только мои пальцы изредка постукивали стол.<br>
+— А теперь показ мод! — объявила Даша.<br>
+Почему-то мое мнение в моде считалось авторитетным, хотя в тряпках я, конечно же, ничего не понимаю. Дело в том, что ценность шмотки определял скорее город, в котором ее купили, чем фасон, крой или всякая чепуха вроде того, как она на человеке сидит. Даже рваная китайская футболка “из Москвы” вызывает у местных модниц сакральное трепетание.<br>
+— Мне сестра передала из Америки два невероятных платья, помоги выбрать, какое надеть в клуб,— сказала Даша, давая осознать ее превосходство над ближним зарубежьем.<br>
+— Писечка согласилась в клуб идти, здорово, — протянул Антон.<br>
+Первое платье было белым, блестящим, воздушным с золотистыми стразами и очень неплохо смотрелось на вешалке, но не Даше. Ей оно добавляло двадцать кило весу, до неприличия оголяло ноги и делало ее похожей на круглую конфету на палочке.<br>
+— Правда красивое? — с детской надеждой спросила у меня Даша.<br>
+— Ну платье-то ничего, но...<br>
+— Если ты это на себя наденешь, то я с тобой никуда не иду, — спас меня пришедший в себя Антон. Не знаю что им двигало: плохо сидящее платье или осознание того, что весь город увидит его не с любовницей, а с женой.<br>
+— Сейчас, секундочку! Вы его еще с новыми сапогами и с новой сумочкой не видели! — протараторила Даша, убежала в соседнюю комнату и начала громко и нервно копошиться в шкафу.<br>
+С сапогами на большом каблуке платье делало Дашу еще больше похожей то ли на цыпленка-переростка, то ли на конфету на длинной палочке.<br>
+— Ну? Как?<br>
+— Даш, мне кажется, что это платье не на такую погоду. Видишь, оно в более светлых тонах, оставь его до лета... — придумал я.<br>
+— Да, пись, ведь сейчас зима, — обрадовался Антон.<br>
+Второе платье оказалось куда более подходящим. Серого цвета, оно не только не подчеркивало все недостатки Дашиной фигуры, но даже скрывало некоторые из них.<br>
+— Даш, тебе ведь завтра рано вставать на маршрутку. Ты же хочешь успеть повидать всех друзей в Киеве, — издалека начал Антон.<br>
+— Ну я ненадолго, а вы дальше тусите еще. Мы ведь давно никуда не ходили. Вам тоже на маршрутку вставать!<br>
+— Ладно, поехали. Только ненадолго.</p>
+<h3 id="111"><a href="#111" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>111</h3>
+<p>Мы сидели в такси и ждали, пока Даша подберет сумочку к серому платью. Антон торопливо начал докладывать мне последние сводки с полей:<br>
+— Позвонил Лизе. Она в боулинге, на клуб не собирается. Я так хочу ее увидеть, хоть на минуту. Но тогда она поймет, что я снова с Дашей. Меня разрывает, выкупаешь? А если жена начнет мои смски читать? Она меня убьет. Можно я с твоего писать буду? Так безопасней.<br>
+— Это так здорово, что мы наконец-то выбрались! — сказала Даша, садясь в машину. Таксист изобразил на своем лице Мону Лизу Мценского уезда, и старенькая иномарка тронулось.<br>
+— Интересно, нас пустят? — с улыбкой сказала Даша.<br>
+— Ты прекрасно выглядишь, да и с нами москвич, все пройдет отлично, — поддакнул ей Антон.<br>
+Описать дискотеку с загадочным называнием “111” мне мешает один простой факт: я ни разу не был там в состоянии хоть сколько-нибудь адекватном, трезвом или человекообразном. Хотя и бывал чуть ли не каждый приезд. Поэтому скажу только, что там всегда много местных студенток, и шуршит в дерьмовых колонках иностранная поп-музыка. Остальное оставлю вашей фантазии.<br>
+В духоте Даша сразу же увидела своих друзей. Точнее друзей их семьи. После свадьбы все знакомые нашей прекрасной семейной пары разделились на две категории: другие пары и мусор, с которым общается Антон. Конечно же, общаться с отбросами приличным людям не пристало, поэтому из неженатых друзей остался только я, и то, потому, что “вроде родственник”.<br>
+Страсть к социализации разожгла огонек в Дашиных глазах, хотя, возможно, это был просто блик от дискотечного фонаря. Она наконец почувствовала себя полноценной королевой на торжественном приеме. До меня доносились только обрывки фраз, когда Даше наконец удавалось перекричать Мадонну: “очень хотим ребеночка”, “да это все он!”, “долбить перестанет и все хорошо пойдет”, “возьми мне коктейль”, “значит водки”, “фейри очень помогает, да”, “хочу сама, кесарево — страшно”, “да он сам настаивает”, “что так долго ходил?”, “а Марьяне почему не взял?”, “иди еще раз”, “да они все такие”, “попробуй, попробуй, я тебе в бутылочку налью”, “где ты столько ходил?”<br>
+— Даш, мы пойдем за сигаретами. В баре дорого, — проныл Антон.<br>
+— Только недолго! Знаю я, как вы за сигаретами ходите.<br>
+Воздух на улице был освобожденным от духоты. Чуть выйдя из-под света дискотечной вывески, Антон побежал.<br>
+— Быстрее, быстрее! Мы должны успеть, выкупаешь?<br>
+— Куда мы?<br>
+— К Лизе. Она в десяти минутах отсюда. Вспомни все те наркотики, которыми я тебя напичкал и беги не жалея сил, они не кончатся. Я так хочу ее увидеть. Беги!<br>
+Есть что-то особенное в беге в полной тьме, когда ты уже не видишь начала и не знаешь конца. Морозный воздух обжигает щеки, а неровный асфальт спотыкается о твои ноги. Куда бежать дальше ты узнаёшь только по шороху чужих шагов или мельтешению одежды в свете Луны. Теряется всякое ощущение времени и начинает казаться, что ты бежишь вечно. Звук бега разносится по всей улице, отражается от стен спящих домов и эхом возвращается обратно. И вот нас уже не двое, а очень и очень много. Хочется сгореть дотла, чтобы осветить путь всем, пусть и ценой собственной жизни. Чтобы показать цель, результат, чтобы бесконечный бег не превратился в хождение по кругу в поисках собственной тени. Но нас все еще двое, а я уже выбился из дыхания.<br>
+Антон остановился перед входом в боулинг:<br>
+— Я не хочу уезжать. Не хочу оставлять ее. Не знаю, что будет, когда мы вернемся. Я ее, наверное, люблю.<br>
+— Наверное?<br>
+— Да, наверное.<br>
+— Ты не уверен?<br>
+— Не знаю.<br>
+— Скажи мне точно.<br>
+— Не знаю. Оно разрывает внутри, понимаешь? Не знаю. Я ее люблю. Я ее люблю. Я ее люблю. Не знаю. Я боюсь потерять все. Но  Лизу потерять я боюсь не меньше. Она ведь легкая. Вспорхнет и улетит, выкупаешь? Я ее никогда не поймаю. Она легенькая, а я иду на дно. Что мне делать?<br>
+— Пошли внутрь, тут холодно.<br>
+Лиза была не одна. С нею сидели трое молодых людей. Первый напоминал американского актера, второй не снимал шапки в помещении, а третий и вовсе был невзрачненький. Их беседа явно давно зашла в тупик, и они развалились на стульях, рассматривая пустоту.<br>
+Антон не стал подсаживаться к ним, сел подальше, спиной к Лизе, и заказал газировки. Прошла минута, прошла вторая. Он нервно постукивал пальцами по столу. Принесли газировку. Антон глотнул. И наконец сказал скрипучим голосом:<br>
+— Дай позвонить.<br>
+Спустя несколько секунд разговора Лиза обернулась, осмотрела весь бар, заметила нас и помахала рукой. Мы подсели к ним.<br>
+— Ребята, почему вы сразу к нам не сели? — спросила Лиза, всматриваясь в лицо Антона.<br>
+— Не хотели мешать.<br>
+— С чего вы взяли, что мешаете?<br>
+— Ты не одна.<br>
+— А разве должна быть одна?<br>
+— Нет.<br>
+Антон взял мой телефон и начал писать Лизе сообщения. Она с недоумением их читала и отвечала. Потом на очередную СМС спрятала мобильник и схватила Антона под столом за руку.<br>
+Мы вышли на воздух, где можно было курить и рассматривать звезды на небе, пока Антон целовал Лизу, что-то ей шептал, потом опять целовал и так снова и снова.<br>
+Время — очень странная материя. Оно как резинка сперва растягивается до невозможности, а потом изо всей дури бьет прямо по лбу. Антон, наверное, знал об этом, как никто, потому что и следили за ним с особой изощренностью. Потихоньку его нервное напряжение начало передаваться и мне. Ведь не могла же Даша поверить, что мы вышли за сигаретами и пропали на пару лет. Нужно было возвращаться, но даже мне не хотелось назад. А звезды сверкали сверху и как бы посмеивались.<br>
+— Нам пора, — сказал Антон, надеясь радостной нотой переломить себя окончательно.<br>
+— Побудь еще пять минут, — сказала Лиза.<br>
+— Нет, пора. Мы ведь еще увидимся.<br>
+— Мы можем еще пять минут. Что-нибудь соврем. Хочешь я отойду подальше? — я начал его уговаривать.<br>
+— Действительно пора. И так задержались. Ведь будет еще завтра, — Антон сбился на шепот.<br>
+Мы ушли в темноту, а Лиза стояла в зеленом свете витрины, провожая нас взглядом. Бежать смысла уже не было, и мы плелись в тишине. Порой Антон останавливался, будто думая повернуть назад, но через несколько секунд продолжал идти дальше.<br>
+За время нашего отсутствия на дискотеке ничего не изменилось. Даша все так же трещала со своей подругой о бытовых проблемах,<br>
+восседая ровно посередке дивана. Наше отсутствие не заметили, и никакие пять или пятьдесят минут не играли малейшей роли. Хотя, для профилактики, Даша протянула:<br>
+— Чего вы так долго? Опять упарывались?<br>
+Антон ответил ей извиняющейся трелью. Потом сел рядом, положил голову Даше на плечо. Возможно я перебрал дури, но мне показалось, что его лицо каменело.</p>
+<h3 id="Обратно"><a href="#%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%BE" aria-hidden="true" class="anchor"><svg aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Обратно</h3>
+<p>В ту ночь снов не было. Я сидел на кровати и ждал рассвета.<br>
+В шесть часов утра кто-то сонно побрел на кухню, открыл кран и стал готовить. В восемь — включился телевизор в гостиной. В десять — позвонили в дверь. Мужской голос, с извиняющимися интонациями, начал говорить, что он вовсе не виноват в том, что его в очередной раз уволили. Значит Гриша. Пришел просить денег. Ему помогут, все-таки родственник. Он находится в бедственном положении, сколько себя помню.<br>
+Хотя в молодости Гриша был веселее. У него была странноватая тяга к прекрасному. Он любил Депеш Мод. Я знаю, что многие любят Депеш Мод, но для паренька из глухой украинской деревни страсть к синтипопу не является чем-то обыденным. Бывало он целыми днями сидел перед ящиком, выжидая, когда покажут новый клип или кусочек концерта. Что ему конкретно нравилось в иностранной музыке, где он не понимал ни слова, до сих пор не ясно. Но он любил говорить: “То шо в клуби крутят, то для дивчат, а Депеш Мод — це для души”. Стало быть и душа у него была.<br>
+Когда пришла пора жениться, в Грише опять взыграла тяга к прекрасному. Он женился не на обычной девке с села, а на богатой из города. Она торговала на центральном рынке и у ее родителей была трехкомнатная квартира. И не просто квартира, а обставленная квартира. У них было: два дивана-софы импортных, две чешских стенки, лакированный стол, шесть стульев, кухня, стиральная машина, швейная машина, пять ковров (три на полу, два на стене), фигурки слоников на полке, ну и всякое, по-мелочи.<br>
+Вышли замуж за Гришу по залету. А как еще объяснить свадьбу со всех сторон обеспеченной купчихи с сельским ценителем искусства? Потом родилась дочка, и Гришу погнали со двора. Он нанес невиданную порчу дивану-софе, да и у его возлюбленной проявился другой жених (еврей из Израиля), которому можно было продаться подороже.<br>
+Так и мотается Гриша с тех пор, подрабатывая то рабочим, то грузчиком. В последнее время он начал пить больше, чем положено людям с серьезными моральными травмами. И еще перестал рассказывать про Депеш Мод.<br>
+За дверью слышалось:<br>
+— Оставайся, позавтракай!<br>
+— Та не, я пиду. Спасибо большое.<br>
+Сталкиваться с Гришей мне почему-то не хотелось, и я подождал пока хлопнет дверь, перед тем, как наконец изобразить пробуждение.<br>
+Передо мной стоял завтрак: огромная тарелка борща, миска салата, картошка, отбивные, компот, ну и конфетки к чаю. Не задумываясь, я бы обменял это на утреннюю дорожку. Но сопротивляться сил не было, поэтому я перемешивал борщ, надеясь создать в нем идеальную композицию из свеклы и картошки. Бабушка наблюдала за мной с умилением, давая подсказки, в какой последовательности мне стоит потреблять пищу.<br>
+— Я тебе чемодан все утро собирала, — сказала бабушка так, будто кто ее просил собирать мой чемодан.<br>
+— А презервативы не забыла положить во внешний карманчик? Таким, как я, размножаться не стоит.<br>
+— Ну что ты несешь! — улыбаясь воскликнула она.<br>
+В последний день перед отъездом перебранки с ней носят какой-то шуточный характер. Мне всегда грустно уезжать, да и не хочется оставлять совсем уж мерзкое ощущение после себя.<br>
+За ночь снег завалил дом Антона. Такси оставило меня с чемоданом посреди сугроба и лениво покатилось по переулку. Антон не отвечал на звонки. Пять минут, десять. Я очень злился, потому что мои ботинки промокли, да и чемодан на колесиках нелепо выглядел посреди снежной пустыни. За забором послышались шаги.<br>
+Антон был в тапочках для бассейна, банном халате с оголенной грудью, в солнечных очках и взъерошенный.<br>
+— Прости, батя! Ты ко мне когда позвонил, я себе такой накатил, что забыл где дверь. И вообще все забыл.<br>
+— Ты хоть собрался? Последняя маршрутка через час.<br>
+— Что? Ой, блин. Собраться. Да, надо. Хотя зачем собираться, жена уже свалила, мы никуда не едем! У тебя денег нормально? Останемся здесь, никому не скажем. Возьмем наркотиков и будем две недели отдыхать. Безо всяких проблем. Сделаем себе лучший Новый Год, выкупаешь?<br>
+Даши явно не было дома уже пару часов. Посреди комнаты валялась дорожная сумка, в которую были хаотично набросаны вещи. На плите стояло ведро, в нем половина бутылки. На кухонном столике была разложена огромная дорожка.<br>
+— Дядя, эта красавица — тебе. Гордость Украины. Чертовому москалю. Специально вымерял, чтобы она была такая огромная, как член негра. Весь остаток наших спидов тебе, батя.<br>
+— А как же ты?<br>
+— А ты не видишь? — сказал Антон и растянул свою улыбку в дьявольскую гримасу, так что было уже не ясно смеется он или у него случился нервный тик.<br>
+— Может на вечер оставим? Мы же тут надолго, не факт, что так сразу пробьем.<br>
+— Мы уезжаем, дядя. И тебе этих уродов весь день сегодня терпеть. Нужно как-нибудь скрасить свое существование.<br>
+— А мы с собой ничего не берем?<br>
+— Два корабля конопли. Мне нужно слезать с этой дряни, поэтому будем перебиваться.<br>
+— Ты выдержишь?<br>
+— У меня выбора другого нет, дядя.<br>
+Я убрал дорогу за один раз.</p>
+<p>Лиза пришла нас проводить. Они отошли куда-то с Антоном. А я смотрел, как одна за другой отправляются маршрутки. Наконец время действительно кончилось. Я позвонил Антону. Они вернулись, держась за руки, улыбаясь чему-то. Когда маршрутка отъезжала, Лиза все еще оставалась на грязной остановке, не переставая улыбаться.<br>
+В украинских маршрутках добавляют пару рядов кресел, мы сидели, поджав ноги и смеялись.<br>
+— А что если, мы вернемся, — начал Антон, — ведь нам это ничего не стоит. Просто повернем назад. Мы ведь можем.<br>
+— Конечно можем. Выйдем около Золотоноши и попробуем поймать попутку.<br>
+— Отметим Новый Год с Лизой. Втроем. Давай?<br>
+— Конечно.<br>
+Мы проезжали тринадцать километров над Днепром. Розовое закатное Солнце отражалось от лазурной глади. Все сверкало и переливалось. Хотелось остаться в этом. Утонуть. Пассажиры, кажется, не понимали окружавшей их красоты.<br>
+Позвонила Лиза. Я услышал последнюю фразу в их разговоре: “Все будет хорошо.”<br>
+Антон засмеялся.</p></div></div><span style="display:block;clear:both;" data-reactid="9"> </span></div></div><script>
+  
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'undefined', 'auto');
+  </script></body></html>

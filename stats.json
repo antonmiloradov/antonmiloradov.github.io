@@ -1,0 +1,56 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-0b4b6464cd0eda1ce204.js",
+      "component---src-pages-index-js-0b4b6464cd0eda1ce204.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---diptih": [
+      "path---diptih-81f208f593fae4732bf3.js",
+      "path---diptih-81f208f593fae4732bf3.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-78ad9faf36d2a33b63a6.js",
+      "component---src-templates-blog-post-js-78ad9faf36d2a33b63a6.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-97bc044a0367b78675cf.js",
+      "component---src-layouts-index-js-97bc044a0367b78675cf.js.map"
+    ],
+    "path---index": [
+      "path---index-6a642e3c4e1791e19ee5.js",
+      "path---index-6a642e3c4e1791e19ee5.js.map"
+    ],
+    "path---sobiraya-zeldu": [
+      "path---sobiraya-zeldu-0354c550dadd9ebf32df.js",
+      "path---sobiraya-zeldu-0354c550dadd9ebf32df.js.map"
+    ],
+    "path---sgoret": [
+      "path---sgoret-d9054e484174a5f53932.js",
+      "path---sgoret-d9054e484174a5f53932.js.map"
+    ],
+    "commons": [
+      "commons-b9295c1fa34e18bb3199.js",
+      "build-js-styles.css",
+      "commons-b9295c1fa34e18bb3199.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-74a56e3acb5813505dc2.js",
+      "build-js-styles.css",
+      "app-74a56e3acb5813505dc2.js.map",
+      "build-js-styles.css.map"
+    ]
+  }
+}
