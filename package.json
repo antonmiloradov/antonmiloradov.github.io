@@ -39,7 +39,7 @@
     "gh-pages": "^1.1.0",
     "prettier": "^1.8.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://antonmiloradov.github.io/",
   "keywords": [
     "gatsby"
   ],
@@ -56,7 +56,7 @@
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public --branch gh-pages",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public --branch master",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }

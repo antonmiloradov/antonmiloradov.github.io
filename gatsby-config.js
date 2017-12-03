@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     title: 'Anton Miloradov',
     author: 'Anton Miloradov',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    description: 'Anton Miloradov',
+    siteUrl: 'https://antonmiloradov.github.io/',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
