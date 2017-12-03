@@ -1,6 +1,6 @@
 ---
 title: Собирая Зельду
-date: "2015-05-01"
+date: "2015-11-07"
 ---
 
 > That's me in the corner
