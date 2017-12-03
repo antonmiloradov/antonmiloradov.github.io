@@ -9,8 +9,8 @@
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---diptih": [
-      "path---diptih-d6815c943b4364d853d0.js",
-      "path---diptih-d6815c943b4364d853d0.js.map"
+      "path---diptih-bd42994c6871850a9eeb.js",
+      "path---diptih-bd42994c6871850a9eeb.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
@@ -21,25 +21,25 @@
       "component---src-templates-blog-post-js-78ad9faf36d2a33b63a6.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-97bc044a0367b78675cf.js",
-      "component---src-layouts-index-js-97bc044a0367b78675cf.js.map"
+      "component---src-layouts-index-js-fc87cb3adcd2190710c6.js",
+      "component---src-layouts-index-js-fc87cb3adcd2190710c6.js.map"
     ],
     "path---index": [
       "path---index-2b4ad566d10530e6b53c.js",
       "path---index-2b4ad566d10530e6b53c.js.map"
     ],
     "path---sobiraya-zeldu": [
-      "path---sobiraya-zeldu-ee7e970ef46611f5ca32.js",
-      "path---sobiraya-zeldu-ee7e970ef46611f5ca32.js.map"
+      "path---sobiraya-zeldu-41ff0be86182f08ccee5.js",
+      "path---sobiraya-zeldu-41ff0be86182f08ccee5.js.map"
     ],
     "path---sgoret": [
-      "path---sgoret-8e12740b3f0100830488.js",
-      "path---sgoret-8e12740b3f0100830488.js.map"
+      "path---sgoret-68b92ea0ef2613e0129f.js",
+      "path---sgoret-68b92ea0ef2613e0129f.js.map"
     ],
     "commons": [
-      "commons-b9295c1fa34e18bb3199.js",
+      "commons-edc96cc46b61a28c7883.js",
       "build-js-styles.css",
-      "commons-b9295c1fa34e18bb3199.js.map",
+      "commons-edc96cc46b61a28c7883.js.map",
       "build-js-styles.css.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
@@ -47,9 +47,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-3a6603dd58e9563fc993.js",
+      "app-001ad2ed446df28767fe.js",
       "build-js-styles.css",
-      "app-3a6603dd58e9563fc993.js.map",
+      "app-001ad2ed446df28767fe.js.map",
       "build-js-styles.css.map"
     ]
   }
