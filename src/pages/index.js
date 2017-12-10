@@ -13,7 +13,10 @@ class BlogIndex extends React.Component {
 
     return (
       <div>
-        <Helmet title={siteTitle} />
+        <Helmet title={siteTitle}>
+          <meta property="og:type" content="article" />
+          <meta property="article:author" content="Антон Милорадов" />
+        </Helmet>
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
@@ -31,6 +34,15 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
+        <div
+          style={{
+            marginTop: rhythm(2.5),
+          }}
+        >
+          <a href="mailto:anton.miloradov@gmail.com">
+            <small>anton.miloradov@gmail.com</small>
+          </a>
+        </div>
       </div>
     )
   }

@@ -12,7 +12,9 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <div>
-        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
+        <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}>
+          <meta name="description" content="Антон Милорадов" />
+        </Helmet>
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{

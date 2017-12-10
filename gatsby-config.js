@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Anton Miloradov',
-    author: 'Anton Miloradov',
-    description: 'Anton Miloradov',
+    title: 'Антон Милорадов',
+    author: 'Антон Милорадов',
+    description: 'Антон Милорадов',
     siteUrl: 'https://antonmiloradov.github.io/',
   },
   pathPrefix: '/',
@@ -33,7 +33,7 @@ module.exports = {
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'line-breaks',
-          'gatsby-remark-autolink-headers'
+          'gatsby-remark-autolink-headers',
         ],
       },
     },
