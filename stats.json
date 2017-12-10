@@ -1,45 +1,45 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-0b4b6464cd0eda1ce204.js",
-      "component---src-pages-index-js-0b4b6464cd0eda1ce204.js.map"
+      "component---src-pages-index-js-89a1cb1b612db19ac246.js",
+      "component---src-pages-index-js-89a1cb1b612db19ac246.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---diptih": [
-      "path---diptih-bd42994c6871850a9eeb.js",
-      "path---diptih-bd42994c6871850a9eeb.js.map"
+      "path---diptih-7b4e155c93a0b44349b6.js",
+      "path---diptih-7b4e155c93a0b44349b6.js.map"
     ],
     "component---node-modules-gatsby-plugin-offline-app-shell-js": [
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-78ad9faf36d2a33b63a6.js",
-      "component---src-templates-blog-post-js-78ad9faf36d2a33b63a6.js.map"
+      "component---src-templates-blog-post-js-6978716a5c5684275447.js",
+      "component---src-templates-blog-post-js-6978716a5c5684275447.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-fc87cb3adcd2190710c6.js",
       "component---src-layouts-index-js-fc87cb3adcd2190710c6.js.map"
     ],
     "path---index": [
-      "path---index-2b4ad566d10530e6b53c.js",
-      "path---index-2b4ad566d10530e6b53c.js.map"
+      "path---index-21d550bc8ffd02539b83.js",
+      "path---index-21d550bc8ffd02539b83.js.map"
     ],
     "path---sobiraya-zeldu": [
-      "path---sobiraya-zeldu-41ff0be86182f08ccee5.js",
-      "path---sobiraya-zeldu-41ff0be86182f08ccee5.js.map"
+      "path---sobiraya-zeldu-011ab9adea3b00ebc18e.js",
+      "path---sobiraya-zeldu-011ab9adea3b00ebc18e.js.map"
     ],
     "path---sgoret": [
-      "path---sgoret-68b92ea0ef2613e0129f.js",
-      "path---sgoret-68b92ea0ef2613e0129f.js.map"
+      "path---sgoret-89752547bbd1485f6447.js",
+      "path---sgoret-89752547bbd1485f6447.js.map"
     ],
     "commons": [
-      "commons-edc96cc46b61a28c7883.js",
+      "commons-f2c19e5a3043fc20aabc.js",
       "build-js-styles.css",
-      "commons-edc96cc46b61a28c7883.js.map",
+      "commons-f2c19e5a3043fc20aabc.js.map",
       "build-js-styles.css.map"
     ],
     "path---offline-plugin-app-shell-fallback": [
@@ -47,9 +47,9 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-001ad2ed446df28767fe.js",
+      "app-fa81a6082cff3d9680ad.js",
       "build-js-styles.css",
-      "app-001ad2ed446df28767fe.js.map",
+      "app-fa81a6082cff3d9680ad.js.map",
       "build-js-styles.css.map"
     ]
   }
