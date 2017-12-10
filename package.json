@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "author": "Anton Miloradov <anton.miloradov@gmail.com>",
   "bugs": {
-    "url": "https://github.com/antonmiloradov/antonmiloradov.github.io/issues/new"
+    "url":
+      "https://github.com/antonmiloradov/antonmiloradov.github.io/issues/new"
   },
   "dependencies": {
     "gatsby": "^1.9.118",
@@ -25,6 +26,8 @@
     "gatsby-transformer-remark": "^1.7.21",
     "gatsby-transformer-sharp": "^1.6.14",
     "lodash": "^4.17.4",
+    "markdown-pdf": "^8.0.0",
+    "md2epub": "^1.1.0",
     "react-responsive-grid": "^0.3.4",
     "remark-autolink-headings": "^5.0.0",
     "remark-breaks": "^1.0.0",
@@ -40,9 +43,7 @@
     "prettier": "^1.8.2"
   },
   "homepage": "https://antonmiloradov.github.io/",
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "MIT",
   "main": "n/a",
   "repository": {
@@ -51,13 +52,18 @@
   },
   "scripts": {
     "dev": "gatsby develop",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "lint":
+      "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
+    "format":
+      "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "copy-circleci": "cp -r .circleci public/.circleci",
-    "deploy": "gatsby build --prefix-paths && npm run copy-circleci && gh-pages -d public --branch master",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+    "generate-files": "./generate-files.sh",
+    "deploy":
+      "gatsby build --prefix-paths && npm run copy-circleci && gh-pages -d public --branch master",
+    "fix-semi":
+      "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
   }
 }
