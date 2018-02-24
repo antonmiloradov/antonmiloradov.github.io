@@ -11,5 +11,5 @@ for dir in ./src/pages/*/; do
 
   pandoc --from=markdown+hard_line_breaks --wrap=preserve "${input}" -o "${out_dir}/${name}.epub" && echo -e "[EPUB]\tOK"
   pandoc --from=markdown+hard_line_breaks --wrap=preserve "${input}" -o "${out_dir}/${name}.fb2" && echo -e "[FB2]\tOK"
-  ./node_modules/.bin/markdown-pdf "${input}" -o "${out_dir}/${name}.pdf" && echo -e "[PDF]\tOK"
+  npx markdown-pdf "${input}" -o "${out_dir}/${name}.pdf" && echo -e "[PDF]\tOK"
 done
